@@ -1,0 +1,9 @@
+Script started on 2023-03-03 11:53:50+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers[00m$ docker run -it ubuntu bash
+[?2004h]0;root@ba86bba87f72: /root@ba86bba87f72:/# [K]0;root@ba86bba87f72: /root@ba86bba87f72:/# mkdir usr/src/run   app
+[?2004l[?2004h]0;root@ba86bba87f72: /root@ba86bba87f72:/# touch usr/srr c/app/index.js
+[?2004l[?2004h]0;root@ba86bba87f72: /root@ba86bba87f72:/# [Kexit
+[?2004lexit
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers[00m$ exit
+
+Script done on 2023-03-03 11:54:31+02:00 [COMMAND_EXIT_CODE="0"]
