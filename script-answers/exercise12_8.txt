@@ -1,0 +1,216 @@
+Script started on 2023-03-04 14:06:56+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="29"]
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers[00m$ cd todo-app/todo-
+todo-backend/  todo-frontend/ 
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers[00m$ cd todo-app/todo-
+todo-backend/  todo-frontend/ 
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers[00m$ cd todo-app/todo-backend/
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers/todo-app/todo-backend[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers/todo-app/todo-backend[00m$ doock[K[K[Kcker-compose up -d
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠿ Container todo-backend-backend-1  Starting                                                                      0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                      0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠿ Container todo-backend-backend-1  Starting                                                                      0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                      0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠿ Container todo-backend-backend-1  Starting                                                                      0.2s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                      0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠿ Container todo-backend-backend-1  Starting                                                                      0.3s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                      0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠿ Container todo-backend-backend-1  Starting                                                                      0.4s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                      0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠿ Container todo-backend-backend-1  Starting                                                                      0.5s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                      0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Container todo-backend-backend-1  Started                                                                       0.6s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                      0.6s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-backend-1  Started                                                                       0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1    Started                                                                       0.7s
+[0m[?25h]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers/todo-app/todo-backend[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers/todo-app/todo-backend[00m$ docker run -it mongo
+{"t":{"$date":"2023-03-04T12:07:33.675+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":17},"outgoing":{"minWireVersion":6,"maxWireVersion":17},"isInternalClient":true}}}
+{"t":{"$date":"2023-03-04T12:07:33.676+00:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"main","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+{"t":{"$date":"2023-03-04T12:07:33.677+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"main","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize."}
+{"t":{"$date":"2023-03-04T12:07:33.680+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","namespace":"config.tenantMigrationDonors"}}
+{"t":{"$date":"2023-03-04T12:07:33.680+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","namespace":"config.tenantMigrationRecipients"}}
+{"t":{"$date":"2023-03-04T12:07:33.680+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"ShardSplitDonorService","namespace":"config.tenantSplitDonors"}}
+{"t":{"$date":"2023-03-04T12:07:33.680+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+{"t":{"$date":"2023-03-04T12:07:33.681+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"5f4998f548f4"}}
+{"t":{"$date":"2023-03-04T12:07:33.681+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"6.0.4","gitVersion":"44ff59461c1353638a71e710f385a566bcd2f547","openSSLVersion":"OpenSSL 3.0.2 15 Mar 2022","modules":[],"allocator":"tcmalloc","environment":{"distmod":"ubuntu2204","distarch":"x86_64","target_arch":"x86_64"}}}}
+{"t":{"$date":"2023-03-04T12:07:33.681+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"22.04"}}}
+{"t":{"$date":"2023-03-04T12:07:33.681+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
+{"t":{"$date":"2023-03-04T12:07:33.684+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+{"t":{"$date":"2023-03-04T12:07:33.684+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=2599M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,backup:0,checkpoint:0,compact:0,evict:0,history_store:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+{"t":{"$date":"2023-03-04T12:07:34.118+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":433}}
+{"t":{"$date":"2023-03-04T12:07:34.118+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+{"t":{"$date":"2023-03-04T12:07:34.139+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+{"t":{"$date":"2023-03-04T12:07:34.139+00:00"},"s":"W",  "c":"CONTROL",  "id":22178,   "ctx":"initandlisten","msg":"/sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'","tags":["startupWarnings"]}
+{"t":{"$date":"2023-03-04T12:07:34.140+00:00"},"s":"W",  "c":"CONTROL",  "id":5123300, "ctx":"initandlisten","msg":"vm.max_map_count is too low","attr":{"currentValue":65530,"recommendedMinimum":1677720,"maxConns":838860},"tags":["startupWarnings"]}
+{"t":{"$date":"2023-03-04T12:07:34.141+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"admin.system.version","uuidDisposition":"provided","uuid":{"uuid":{"$uuid":"07667c7e-c336-409f-9ac9-b2680f3a52e8"}},"options":{"uuid":{"$uuid":"07667c7e-c336-409f-9ac9-b2680f3a52e8"}}}}
+{"t":{"$date":"2023-03-04T12:07:34.157+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"07667c7e-c336-409f-9ac9-b2680f3a52e8"}},"namespace":"admin.system.version","index":"_id_","ident":"index-1--8185725358976338094","collectionIdent":"collection-0--8185725358976338094","commitTimestamp":null}}
+{"t":{"$date":"2023-03-04T12:07:34.157+00:00"},"s":"I",  "c":"REPL",     "id":20459,   "ctx":"initandlisten","msg":"Setting featureCompatibilityVersion","attr":{"newVersion":"6.0"}}
+{"t":{"$date":"2023-03-04T12:07:34.157+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"6.0","context":"setFCV"}}
+{"t":{"$date":"2023-03-04T12:07:34.157+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":17},"outgoing":{"minWireVersion":6,"maxWireVersion":17},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":17,"maxWireVersion":17},"outgoing":{"minWireVersion":17,"maxWireVersion":17},"isInternalClient":true}}}
+{"t":{"$date":"2023-03-04T12:07:34.158+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":17,"maxWireVersion":17},"outgoing":{"minWireVersion":17,"maxWireVersion":17},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":17,"maxWireVersion":17},"outgoing":{"minWireVersion":17,"maxWireVersion":17},"isInternalClient":true}}}
+{"t":{"$date":"2023-03-04T12:07:34.158+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"6.0","context":"startup"}}
+{"t":{"$date":"2023-03-04T12:07:34.158+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+{"t":{"$date":"2023-03-04T12:07:34.158+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+{"t":{"$date":"2023-03-04T12:07:34.187+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+{"t":{"$date":"2023-03-04T12:07:34.190+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"local.startup_log","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"2c43e361-7aec-4735-9905-1a83f3ec78ff"}},"options":{"capped":true,"size":10485760}}}
+{"t":{"$date":"2023-03-04T12:07:34.206+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"2c43e361-7aec-4735-9905-1a83f3ec78ff"}},"namespace":"local.startup_log","index":"_id_","ident":"index-3--8185725358976338094","collectionIdent":"collection-2--8185725358976338094","commitTimestamp":null}}
+{"t":{"$date":"2023-03-04T12:07:34.207+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+{"t":{"$date":"2023-03-04T12:07:34.207+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+{"t":{"$date":"2023-03-04T12:07:34.214+00:00"},"s":"I",  "c":"CONTROL",  "id":20712,   "ctx":"LogicalSessionCacheReap","msg":"Sessions collection is not set up; waiting until next sessions reap interval","attr":{"error":"NamespaceNotFound: config.system.sessions does not exist"}}
+{"t":{"$date":"2023-03-04T12:07:34.215+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+{"t":{"$date":"2023-03-04T12:07:34.215+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0"}}
+{"t":{"$date":"2023-03-04T12:07:34.215+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+{"t":{"$date":"2023-03-04T12:07:34.215+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"LogicalSessionCacheRefresh","msg":"createCollection","attr":{"namespace":"config.system.sessions","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"2eb2ba4d-3b09-4da7-b1f7-bbbd6db6ef75"}},"options":{}}}
+{"t":{"$date":"2023-03-04T12:07:34.237+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"2eb2ba4d-3b09-4da7-b1f7-bbbd6db6ef75"}},"namespace":"config.system.sessions","index":"_id_","ident":"index-5--8185725358976338094","collectionIdent":"collection-4--8185725358976338094","commitTimestamp":null}}
+{"t":{"$date":"2023-03-04T12:07:34.237+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"2eb2ba4d-3b09-4da7-b1f7-bbbd6db6ef75"}},"namespace":"config.system.sessions","index":"lsidTTLIndex","ident":"index-6--8185725358976338094","collectionIdent":"collection-4--8185725358976338094","commitTimestamp":null}}
+
+
+
+^C{"t":{"$date":"2023-03-04T12:07:46.161+00:00"},"s":"I",  "c":"CONTROL",  "id":23377,   "ctx":"SignalHandler","msg":"Received signal","attr":{"signal":2,"error":"Interrupt"}}
+{"t":{"$date":"2023-03-04T12:07:46.161+00:00"},"s":"I",  "c":"CONTROL",  "id":23380,   "ctx":"SignalHandler","msg":"Signal was sent by the kernel"}
+{"t":{"$date":"2023-03-04T12:07:46.161+00:00"},"s":"I",  "c":"CONTROL",  "id":23381,   "ctx":"SignalHandler","msg":"will terminate after current cmd ends"}
+{"t":{"$date":"2023-03-04T12:07:46.162+00:00"},"s":"I",  "c":"REPL",     "id":4784900, "ctx":"SignalHandler","msg":"Stepping down the ReplicationCoordinator for shutdown","attr":{"waitTimeMillis":15000}}
+{"t":{"$date":"2023-03-04T12:07:46.163+00:00"},"s":"I",  "c":"REPL",     "id":4794602, "ctx":"SignalHandler","msg":"Attempting to enter quiesce mode"}
+{"t":{"$date":"2023-03-04T12:07:46.163+00:00"},"s":"I",  "c":"-",        "id":6371601, "ctx":"SignalHandler","msg":"Shutting down the FLE Crud thread pool"}
+{"t":{"$date":"2023-03-04T12:07:46.163+00:00"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"SignalHandler","msg":"Shutting down the MirrorMaestro"}
+{"t":{"$date":"2023-03-04T12:07:46.163+00:00"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"SignalHandler","msg":"Shutting down the WaitForMajorityService"}
+{"t":{"$date":"2023-03-04T12:07:46.164+00:00"},"s":"I",  "c":"CONTROL",  "id":4784903, "ctx":"SignalHandler","msg":"Shutting down the LogicalSessionCache"}
+{"t":{"$date":"2023-03-04T12:07:46.164+00:00"},"s":"I",  "c":"NETWORK",  "id":20562,   "ctx":"SignalHandler","msg":"Shutdown: going to close listening sockets"}
+{"t":{"$date":"2023-03-04T12:07:46.164+00:00"},"s":"I",  "c":"NETWORK",  "id":23017,   "ctx":"listener","msg":"removing socket file","attr":{"path":"/tmp/mongodb-27017.sock"}}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"SignalHandler","msg":"Shutting down the global connection pool"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"CONTROL",  "id":4784906, "ctx":"SignalHandler","msg":"Shutting down the FlowControlTicketholder"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"-",        "id":20520,   "ctx":"SignalHandler","msg":"Stopping further Flow Control ticket acquisitions."}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"CONTROL",  "id":4784908, "ctx":"SignalHandler","msg":"Shutting down the PeriodicThreadToAbortExpiredTransactions"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"REPL",     "id":4784909, "ctx":"SignalHandler","msg":"Shutting down the ReplicationCoordinator"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"SHARDING", "id":4784910, "ctx":"SignalHandler","msg":"Shutting down the ShardingInitializationMongoD"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"REPL",     "id":4784911, "ctx":"SignalHandler","msg":"Enqueuing the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"-",        "id":4784912, "ctx":"SignalHandler","msg":"Killing all operations for shutdown"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"-",        "id":4695300, "ctx":"SignalHandler","msg":"Interrupted all currently running operations","attr":{"opsKilled":3}}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"TENANT_M", "id":5093807, "ctx":"SignalHandler","msg":"Shutting down all TenantMigrationAccessBlockers on global shutdown"}
+{"t":{"$date":"2023-03-04T12:07:46.170+00:00"},"s":"I",  "c":"COMMAND",  "id":4784913, "ctx":"SignalHandler","msg":"Shutting down all open transactions"}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"REPL",     "id":4784914, "ctx":"SignalHandler","msg":"Acquiring the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"INDEX",    "id":4784915, "ctx":"SignalHandler","msg":"Shutting down the IndexBuildsCoordinator"}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"SignalHandler","msg":"Shutting down the ReplicaSetMonitor"}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"SignalHandler","msg":"Shutting down the MigrationUtilExecutor"}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"MigrationUtil-TaskExecutor","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"COMMAND",  "id":4784923, "ctx":"SignalHandler","msg":"Shutting down the ServiceEntryPoint"}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"CONTROL",  "id":4784925, "ctx":"SignalHandler","msg":"Shutting down free monitoring"}
+{"t":{"$date":"2023-03-04T12:07:46.171+00:00"},"s":"I",  "c":"CONTROL",  "id":20609,   "ctx":"SignalHandler","msg":"Shutting down free monitoring"}
+{"t":{"$date":"2023-03-04T12:07:46.172+00:00"},"s":"I",  "c":"CONTROL",  "id":4784927, "ctx":"SignalHandler","msg":"Shutting down the HealthLog"}
+{"t":{"$date":"2023-03-04T12:07:46.172+00:00"},"s":"I",  "c":"CONTROL",  "id":4784928, "ctx":"SignalHandler","msg":"Shutting down the TTL monitor"}
+{"t":{"$date":"2023-03-04T12:07:46.172+00:00"},"s":"I",  "c":"INDEX",    "id":3684100, "ctx":"SignalHandler","msg":"Shutting down TTL collection monitor thread"}
+{"t":{"$date":"2023-03-04T12:07:46.172+00:00"},"s":"I",  "c":"INDEX",    "id":3684101, "ctx":"SignalHandler","msg":"Finished shutting down TTL collection monitor thread"}
+{"t":{"$date":"2023-03-04T12:07:46.172+00:00"},"s":"I",  "c":"CONTROL",  "id":6278511, "ctx":"SignalHandler","msg":"Shutting down the Change Stream Expired Pre-images Remover"}
+{"t":{"$date":"2023-03-04T12:07:46.172+00:00"},"s":"I",  "c":"CONTROL",  "id":4784929, "ctx":"SignalHandler","msg":"Acquiring the global lock for shutdown"}
+{"t":{"$date":"2023-03-04T12:07:46.172+00:00"},"s":"I",  "c":"CONTROL",  "id":4784930, "ctx":"SignalHandler","msg":"Shutting down the storage engine"}
+{"t":{"$date":"2023-03-04T12:07:46.173+00:00"},"s":"I",  "c":"STORAGE",  "id":22320,   "ctx":"SignalHandler","msg":"Shutting down journal flusher thread"}
+{"t":{"$date":"2023-03-04T12:07:46.173+00:00"},"s":"I",  "c":"STORAGE",  "id":22321,   "ctx":"SignalHandler","msg":"Finished shutting down journal flusher thread"}
+{"t":{"$date":"2023-03-04T12:07:46.173+00:00"},"s":"I",  "c":"STORAGE",  "id":22322,   "ctx":"SignalHandler","msg":"Shutting down checkpoint thread"}
+{"t":{"$date":"2023-03-04T12:07:46.173+00:00"},"s":"I",  "c":"STORAGE",  "id":22323,   "ctx":"SignalHandler","msg":"Finished shutting down checkpoint thread"}
+{"t":{"$date":"2023-03-04T12:07:46.173+00:00"},"s":"I",  "c":"STORAGE",  "id":20282,   "ctx":"SignalHandler","msg":"Deregistering all the collections"}
+{"t":{"$date":"2023-03-04T12:07:46.174+00:00"},"s":"I",  "c":"STORAGE",  "id":22261,   "ctx":"SignalHandler","msg":"Timestamp monitor shutting down"}
+{"t":{"$date":"2023-03-04T12:07:46.174+00:00"},"s":"I",  "c":"STORAGE",  "id":22317,   "ctx":"SignalHandler","msg":"WiredTigerKVEngine shutting down"}
+{"t":{"$date":"2023-03-04T12:07:46.174+00:00"},"s":"I",  "c":"STORAGE",  "id":22318,   "ctx":"SignalHandler","msg":"Shutting down session sweeper thread"}
+{"t":{"$date":"2023-03-04T12:07:46.174+00:00"},"s":"I",  "c":"STORAGE",  "id":22319,   "ctx":"SignalHandler","msg":"Finished shutting down session sweeper thread"}
+{"t":{"$date":"2023-03-04T12:07:46.176+00:00"},"s":"I",  "c":"STORAGE",  "id":4795902, "ctx":"SignalHandler","msg":"Closing WiredTiger","attr":{"closeConfig":"leak_memory=true,"}}
+{"t":{"$date":"2023-03-04T12:07:46.205+00:00"},"s":"I",  "c":"STORAGE",  "id":4795901, "ctx":"SignalHandler","msg":"WiredTiger closed","attr":{"durationMillis":29}}
+{"t":{"$date":"2023-03-04T12:07:46.205+00:00"},"s":"I",  "c":"STORAGE",  "id":22279,   "ctx":"SignalHandler","msg":"shutdown: removing fs lock..."}
+{"t":{"$date":"2023-03-04T12:07:46.205+00:00"},"s":"I",  "c":"-",        "id":4784931, "ctx":"SignalHandler","msg":"Dropping the scope cache for shutdown"}
+{"t":{"$date":"2023-03-04T12:07:46.205+00:00"},"s":"I",  "c":"FTDC",     "id":20626,   "ctx":"SignalHandler","msg":"Shutting down full-time diagnostic data capture"}
+{"t":{"$date":"2023-03-04T12:07:46.209+00:00"},"s":"I",  "c":"CONTROL",  "id":20565,   "ctx":"SignalHandler","msg":"Now exiting"}
+{"t":{"$date":"2023-03-04T12:07:46.210+00:00"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"SignalHandler","msg":"Shutting down","attr":{"exitCode":0}}
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers/todo-app/todo-backend[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers/todo-app/todo-backend[00m$ docker ps
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                     NAMES
+d9e58316f61a   todo-backend   "docker-entrypoint.s…"   17 minutes ago   Up 30 seconds   0.0.0.0:3000->3000/tcp    todo-backend-backend-1
+fd00c15d9d1f   mongo          "docker-entrypoint.s…"   17 minutes ago   Up 30 seconds   0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers/todo-app/todo-backend[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers/todo-app/todo-backend[00m$ docker exec -it fd00[K (ba[K[K[K/bisn[K[Kn/bash
+[?2004hroot@fd00c15d9d1f:/# 2~  mongosh -u root -p example
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	640334c24dac2d6684da96ca
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.8.0[0m
+Using MongoDB:		6.0.4
+[1m[33mUsing Mongosh[0m:		1.8.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2023-03-04T12:07:19.363+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2023-03-04T12:07:20.591+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+   2023-03-04T12:07:20.591+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1m[33m------[0m
+   Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+   metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+   
+   The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+   and anyone you share the URL with. MongoDB may use this information to make product
+   improvements and to suggest MongoDB products and deployment options to you.
+   
+   To enable free monitoring, run the following command: db.enableFreeMonitoring()
+   To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+[1madmin[0m    100.00 KiB
+[1mconfig[0m    12.00 KiB
+[1mlocal[0m     72.00 KiB
+[1mtodo_db[0m   40.00 KiB
+[1G[0Jtest> [7Guse todo_db
+switched to db todo_db
+[1G[0Jtodo_db> [10Gsoh[1G[0Jtodo_db> so[12G[1G[0Jtodo_db> s[11Ghow collections
+[1mtodos[0m
+[1G[0Jtodo_db> [10Gdb.todos.find({})
+[
+  {
+    _id: ObjectId("64033087aac0ed04ab6daf5e"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("64033087aac0ed04ab6daf5f"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jtodo_db> [10Gdb.todos.inset[1G[0Jtodo_db> db.todos.inse[23GrtOne()[1D[1G[0Jtodo_db> db.todos.insertOne[44m([49m)[29G[1G[0Jtodo_db> db.todos.insertOne[44m([49m{)[30G[1G[0Jtodo_db> db.todos.insertOne[44m([49m{})[31G[1D[1G[0Jtodo_db> db.todos.insertOne([44m{[49m})[30G[1C[1G[0Jtodo_db> db.todos.insertOne[44m([49m{})[31G[1C[1G[0Jtodo_db> db.todos.insertOne({})[32G[1D[1G[0Jtodo_db> db.todos.insertOne[44m([49m{})[31G[1D[1G[0Jtodo_db> db.todos.insertOne([44m{[49m})[30G[1C[1G[0Jtodo_db> db.todos.insertOne[44m([49m{})[31G[1C[1G[0Jtodo_db> db.todos.insertOne({})[32G[1D[1G[0Jtodo_db> db.todos.insertOne[44m([49m{})[31G[1D[1G[0Jtodo_db> db.todos.insertOne([44m{[49m})[30G[1G[0Jtodo_db> db.todos.insertOne([44m{[49mt})[31G[1G[0Jtodo_db> db.todos.insertOne([44m{[49mte})[32G[1G[0Jtodo_db> db.todos.insertOne([44m{[49mtex})[33G[1G[0Jtodo_db> db.todos.insertOne([44m{[49mtext})[34G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m:})[35G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: })[36G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [32m"})[39m[37G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: })[36G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [32m'})[39m[37G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m''[39m})[38G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [32m''[39m[32m'})[39m[39G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m''[39m})[38G[1D[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49m'[39m})[37G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mI'[39m})[38G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIn'[39m})[39G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mInc'[39m})[40G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncr'[39m})[41G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncre'[39m})[42G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrea'[39m})[43G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncreas'[39m})[44G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease'[39m})[45G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease '[39m})[46G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease t'[39m})[47G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease th'[39m})[48G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the'[39m})[49G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the '[39m})[50G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the n'[39m})[51G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the nu'[39m})[52G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the num'[39m})[53G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the numb'[39m})[54G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the numbe'[39m})[55G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number'[39m})[56G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number '[39m})[57G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number o'[39m})[58G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of'[39m})[59G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of '[39m})[60G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of t'[39m})[61G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of to'[39m})[62G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of too'[39m})[63G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tool'[39m})[64G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools'[39m})[65G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools '[39m})[66G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools i'[39m})[67G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in'[39m})[68G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in '[39m})[69G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in m'[39m})[70G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my'[39m})[71G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my '[39m})[72G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my t'[39m})[73G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my to'[39m})[74G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my too'[39m})[75G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my tool'[39m})[76G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolb'[39m})[77G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbe'[39m})[78G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbel'[39m})[79G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [44m[32m'[49mIncrease the number of tools in my toolbelt'[39m})[80G[1C[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m})[81G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m,})[82G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, })[83G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, d})[84G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [36mdo[39m})[85G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, don})[86G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, done})[87G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m:})[88G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: })[89G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: f})[90G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: fa})[91G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: fal})[92G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: fals})[93G[1G[0Jtodo_db> db.todos.insertOne([44m{[49m[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m})[94G[2C[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m})[96G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("640335a7d658a10b51b0e839")
+}
+[1G[0Jtodo_db> [10G[1G[0Jtodo_db> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [33mfalse[39m})[96G[1G[0Jtodo_db> db.todos.find({})[27G
+[
+  {
+    _id: ObjectId("64033087aac0ed04ab6daf5e"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("64033087aac0ed04ab6daf5f"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("640335a7d658a10b51b0e839"),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jtodo_db> [10Gexit
+[?2004hroot@fd00c15d9d1f:/# 
+[?2004l[?2004hroot@fd00c15d9d1f:/# 
+[?2004l[?2004hroot@fd00c15d9d1f:/# exit
+[?2004lexit
+]0;ilmast@LAPTOP-3LUS3F9I: ~/fullstack-containers/todo-app/todo-backend[01;32milmast@LAPTOP-3LUS3F9I[00m:[01;34m~/fullstack-containers/todo-app/todo-backend[00m$ exit
+
+Script done on 2023-03-04 14:12:47+02:00 [COMMAND_EXIT_CODE="0"]
