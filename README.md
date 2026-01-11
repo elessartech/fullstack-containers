@@ -1,3 +1,3 @@
 # Full Stack Open Containers
 
-This repository was developed as a part of [Full Stack Open Containers](https://fullstackopen.com/en/part12)-course by University of Helsinki.
+This repository contains work completed as part of the [Full Stack Open Containers](https://fullstackopen.com/en/part12) course offered by the University of Helsinki.
